@@ -1,3 +1,42 @@
-/* TODO: Style the product card container */
+/* Style the product card container */
+.productCard {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
 
-/* TODO: Add special styling for out-of-stock products */
+.productCard h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.productCard p {
+  margin: 8px 0;
+  color: #666;
+}
+
+.productCard button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.productCard button:hover {
+  background-color: #cc0000;
+}
+
+/* Add special styling for out-of-stock products */
+.outOfStockClass {
+  background-color: #ffebee;
+  border-color: #ff9999;
+  opacity: 0.8;
+}
