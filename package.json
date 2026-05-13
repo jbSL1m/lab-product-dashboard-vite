@@ -11,8 +11,7 @@
     "preview": "vite preview",
     "server": "json-server --watch db.json --port 4000",
     "lint": "eslint .",
-    "test": "vitest run"
-  
+    "test": "vitest run --watch=false"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
