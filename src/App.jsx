@@ -5,9 +5,9 @@ import ProductList from './components/ProductList';
 const App = () => {
   // Define initial product data
   const initialProducts = [
-    { id: 1, name: 'Gameboy Color', price: '$119.95', inStock: true },
-    { id: 2, name: 'Nintendo 3DS', price: '$699.95', inStock: false },
-    { id: 3, name: 'Super Ninitendo Entertainment System', price: '$249.95', inStock: true },
+    { id: 1, name: 'Laptop', price: '$999', inStock: true },
+    { id: 2, name: 'Phone', price: '$699', inStock: false },
+    { id: 3, name: 'Tablet', price: '$499', inStock: true },
   ];
 
   // Implement state to manage filtering and products
